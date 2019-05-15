@@ -12,8 +12,6 @@ discriminator:
     ideal: '#/components/schemas/PaymentResponseIdealSource'
     klarna: '#/components/schemas/PaymentResponseKlarnaSource'
     poli: '#/components/schemas/PaymentResponsePoliSource'
-    qiwi: '#/components/schemas/PaymentResponseQiwiSource'
-    safetypay: '#/components/schemas/PaymentResponseSafetyPaySource'
     sofort: '#/components/schemas/PaymentResponseSofortSource'
 
 required:
