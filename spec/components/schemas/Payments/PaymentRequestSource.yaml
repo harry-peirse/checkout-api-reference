@@ -16,12 +16,14 @@ discriminator:
     ideal: '#/components/schemas/PaymentRequestIdealSource'
     klarna: '#/components/schemas/PaymentRequestKlarnaSource'
     knet: '#/components/schemas/PaymentRequestKnetSource'
+    oxxo: '#/components/schemas/PaymentRequestOXXOSource'
     p24: '#/components/schemas/PaymentRequestP24Source'
     poli: '#/components/schemas/PaymentRequestPoliSource'
     sofort: '#/components/schemas/PaymentRequestSofortSource'
     bancontact: '#/components/schemas/PaymentRequestBancontactSource'
     fawry: '#/components/schemas/PaymentRequestFawrySource'
     qpay: '#/components/schemas/PaymentRequestQPaySource'
+    multibanco: '#/components/schemas/PaymentRequestMultibancoSource'
 required:
   - type
 properties:
